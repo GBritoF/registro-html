@@ -1,0 +1,67 @@
+<head>
+  <title>Aula-2-Refazendo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link href="./style.css" rel="stylesheet">  
+</head>
+<body>
+  <h1 class="title">Faça seu cadastro</h1>
+  
+  <div class="box">
+    <label class="label-field" for="name-field">Nome completo</label>
+    <input type="text" placeholder="Digite seu nome completo" id="name-field" />
+  </div>
+
+  <div class="box">
+    <label for="date-field">Data de nascimento</label>
+    <input type="date" id="date-field" />
+  </div>
+ 
+
+  <label>País*</label>
+
+  <select>
+    <option>Brasil</option>
+    <option>Uruguai</option>
+    <option>Paraguai</option>
+  </select>
+
+  <label>Gênero:</label>
+
+  <label for="masculine-genre">Masculino</label>
+  <input id="masculine-genre" type="radio" name="input-genre" />
+  <label for="feminine-genre">Feminino</label>
+  <input id="feminine-genre" type="radio" name="input-genre" />
+  <label for="do-not-declare-genre">Não declarar</label>
+  <input id="do-not-declare-genre" type="radio" name="input-genre" />
+
+<div class="box">
+    <label for="email-field">E-mail</label>
+    <input type="email" placeholder="Digite seu e-mail" id="email-field" />
+</div>
+
+<div class="box">
+    <label for="password-field">Senha</label>
+    <input type="password" id="password-field" placeholder="Digite sua senha" />  
+</div>
+  
+  <div class="box">
+    <label for="confirm-password-field">Cofirme sua senha</label>
+    <input
+      placeholder="Confirmar senha"
+      type="password"
+      id="confirm-password-field"
+    />
+  </div>
+  <input type="checkbox" />
+  <p>
+    Aceito os termos e condições e concordo com as políticas de privacidade do
+    Hall To Code.
+  </p>
+  <button>Cadastrar</button>
+  <p>Já tem uma conta no Hall To Code? Entre agora</p>
+</body>
